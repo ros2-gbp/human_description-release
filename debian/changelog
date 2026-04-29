@@ -1,0 +1,26 @@
+ros-lyrical-human-description (2.0.2-3resolute) resolute; urgency=high
+
+  * fix joint limits for the arms
+    the joint limits for the arms were wrong, as they did not really
+    reflect the range of movements a human is able to perform. This
+    commit introduces realistic joint limits for human arms.
+  * Contributors: lorenzoferrini
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 05 Feb 2024 00:00:00 -0000
+
+ros-lyrical-human-description (2.0.1-3resolute) resolute; urgency=high
+
+  * port to ROS2 humble
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Mon, 13 Nov 2023 00:00:00 -0000
+
+ros-lyrical-human-description (1.0.0-3resolute) resolute; urgency=high
+
+  * v1 of the human URDF model
+  * Initial commit
+  * Contributors: Séverin Lemaignan
+
+ -- Séverin Lemaignan <severin.lemaignan@pal-robotics.com>  Thu, 13 Jan 2022 00:00:00 -0000
+
+
